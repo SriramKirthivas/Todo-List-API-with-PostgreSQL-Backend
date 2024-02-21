@@ -25,8 +25,7 @@ This Go program implements a RESTful API for managing todo tasks, backed by a Po
     HOST=<database_host>
     PORT=<database_port>
     DBNAME=<database_name>
-4. Run the following command to build and start the server:
+4. Run the following command to build and start the server on port 8080. You can access the API endpoints using preferred HTTP Client:
 
 ```bash
-go run main.go```
-5. The server will start running on port `8080` by default. You can access the API endpoints using your preferred HTTP client.
+go run main.go
