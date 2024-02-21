@@ -28,5 +28,5 @@ This Go program implements a RESTful API for managing todo tasks, backed by a Po
 4. Run the following command to build and start the server:
 
 ```bash
-go run main.go
+go run main.go```
 5. The server will start running on port `8080` by default. You can access the API endpoints using your preferred HTTP client.
